@@ -20,7 +20,7 @@ class Database:
         return rows
     def delete(self,id):
         self.cur.execute("DELETE FROM book WHERE id=?",(id,))
-        self.conn.commit()
+        self.conn.commit() 
     def update(self,id,title,author,year,isbn):
         self.cur.execute("UPDATE book SET title=?, author=?, year=?, isbn=? WHERE id=?",(title,author,year,isbn,id))
         self.conn.commit()
