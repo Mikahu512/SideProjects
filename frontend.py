@@ -32,7 +32,7 @@ class Window(object):
 
         self.year_text=StringVar()
         self.e3=Entry(window,textvariable=self.year_text)
-        self.e3.grid(row=1,column=1)
+        self.e3.grid(row=1,column=1) 
 
         self.isbn_text=StringVar()
         self.e4=Entry(window,textvariable=self.isbn_text)
