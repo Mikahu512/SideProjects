@@ -4,7 +4,6 @@ from backend import Database
 database=Database("books.db")
 
 class Window(object):
-
     def __init__(self,window):
 
         self.window = window
