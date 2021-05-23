@@ -77,7 +77,6 @@ class Window(object):
         self.e3.insert(END,self.selected_tuple[3])
         self.e4.delete(0,END)
         self.e4.insert(END,self.selected_tuple[4])
-
     def view_command(self):
         self.list1.delete(0,END)
         for row in database.view():
