@@ -40,7 +40,7 @@ class Window(object):
         self.list1=Listbox(window, height=6,width=35)
         self.list1.grid(row=2,column=0,rowspan=6,columnspan=2)
 
-        sb1=Scrollbar(window)
+        sb1=Scrollbar(window) 
         sb1.grid(row=2,column=2,rowspan=6)
 
         self.list1.configure(yscrollcommand=sb1.set)
