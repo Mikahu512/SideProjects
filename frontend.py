@@ -1,6 +1,6 @@
 from tkinter import *
 from backend import Database
- 
+
 database=Database("books.db")
 
 class Window(object):
