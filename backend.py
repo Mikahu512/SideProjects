@@ -22,6 +22,7 @@ class Database:
         rows=self.cur.fetchall()
         return rows
     
+    
     def delete(self,id):
         self.cur.execute("DELETE FROM book WHERE id=?",(id,))
         self.conn.commit() 
