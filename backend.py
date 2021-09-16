@@ -30,7 +30,7 @@ class Database:
     def update(self,id,title,author,year,isbn):
         self.cur.execute("UPDATE book SET title=?, author=?, year=?, isbn=? WHERE id=?",(title,author,year,isbn,id))
         self.conn.commit()
-        
+         
     def __del__(self):
         self.conn.close()
 
