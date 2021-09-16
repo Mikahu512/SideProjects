@@ -21,7 +21,7 @@ class Database:
         self.cur.execute("SELECT * FROM book WHERE title=? OR author=? OR year=? OR isbn=?", (title,author,year,isbn))
         rows=self.cur.fetchall()
         return rows
- 
+
   
     def delete(self,id):
         self.cur.execute("DELETE FROM book WHERE id=?",(id,))
