@@ -28,7 +28,6 @@ class Window(object):
         self.author_text=StringVar()
         self.e2=Entry(window,textvariable=self.author_text)
         self.e2.grid(row=0,column=3)
-
         
         self.year_text=StringVar()
         self.e3=Entry(window,textvariable=self.year_text)
