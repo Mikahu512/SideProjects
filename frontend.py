@@ -11,6 +11,7 @@ class Window(object):
 
         l1=Label(window,text="Title")
         l1.grid(row=0,column=0)
+       
         l2=Label(window,text="Author")
         l2.grid(row=0,column=2)
 
