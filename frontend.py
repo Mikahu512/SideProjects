@@ -66,6 +66,7 @@ class Window(object):
         b6=Button(window,text="Close", width=12,command=window.destroy)
         b6.grid(row=7,column=3)
 
+        
     def get_selected_row(self,event):
         index=self.list1.curselection()[0]
         self.selected_tuple=self.list1.get(index)
