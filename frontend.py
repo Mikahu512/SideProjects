@@ -97,6 +97,7 @@ class Window(object):
     def update_command(self):
         database.update(self.selected_tuple[0],self.title_text.get(),self.author_text.get(),self.year_text.get(),self.isbn_text.get())
 
+      
 window=Tk()
 Window(window)
 window.mainloop()
